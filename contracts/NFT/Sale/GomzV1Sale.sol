@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.0;
 
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/utils/Context.sol";
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/utils/math/SafeMath.sol";
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/ERC721/IGomzV1.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/utils/Context.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/utils/math/SafeMath.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/ERC721/IGomzV1.sol";
 
 contract GomzSale is Context {
     using SafeMath for uint256;
