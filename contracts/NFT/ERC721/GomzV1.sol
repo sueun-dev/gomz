@@ -2,10 +2,10 @@
 //CREATED BY SUEUN CHO - sueun.dev@gmail.com
 pragma solidity ^0.8.0;
 
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/utils/Counters.sol";
-import "https://github.com/sueun-dev/gomz/blob/main/src/contracts/openzeppelin/contracts/access/Ownable.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/utils/Counters.sol";
+import "https://github.com/sueun-dev/gomz/blob/main/contracts/openzeppelin/contracts/access/Ownable.sol";
 
 contract Gomzv1 is ERC721, ERC721Enumerable, Ownable {
     using Counters for Counters.Counter;
